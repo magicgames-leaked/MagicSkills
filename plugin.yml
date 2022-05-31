@@ -1,0 +1,19 @@
+name: MagicSkills
+api: 4.0.0
+main: Pushkar\McMMO\Main
+version: 4.0.0
+author: Pushkar
+
+commands:
+  skills:
+    description: §eYour Profile
+    permission: profile.cmd
+  mcmmoadmin: 
+    description: §eMcmmo admin
+    permission: mcmmo.cmd
+  
+permissions:
+  profile.cmd:
+    default: true
+  mcmmo.cmd:
+    default: op
